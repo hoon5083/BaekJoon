@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 int n = 0;
 int root = 0;
 int output = 0;
 int roop_val = 0;
+
 int main(){
   scanf("%d", &n);
   for(int i = 0;i<10;i++){
@@ -25,4 +27,5 @@ int main(){
     }
   }
   printf("%d", output);
+  return 0;
 }
